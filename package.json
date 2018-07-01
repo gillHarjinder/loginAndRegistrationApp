@@ -1,5 +1,5 @@
 {
-  "name": "loginandregistrationwithnodejs",
+  "name": "oginAndRegistrationApp",
   "version": "1.0.0",
   "description": "Login and registration template",
   "main": "app.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gillHarjinder/loginAndRegistrationWithNodeJS.git"
+    "url": "git+https://github.com/gillHarjinder/oginAndRegistrationApp.git"
   },
   "author": "Harjinder Gill",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gillHarjinder/loginAndRegistrationWithNodeJS/issues"
+    "url": "https://github.com/gillHarjinder/oginAndRegistrationApp/issues"
   },
-  "homepage": "https://github.com/gillHarjinder/loginAndRegistrationWithNodeJS#readme",
+  "homepage": "https://github.com/gillHarjinder/oginAndRegistrationApp#readme",
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
