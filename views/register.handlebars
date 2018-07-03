@@ -1,15 +1,4 @@
-<h2 class="page-header">Register</h2>
-{{#if user}}
-        <div class="alert alert-danger">Username has taken already try new</div> 
-{{/if}}
-{{#if mail}}
-        <div class="alert alert-danger">Email has taken already try new</div> 
-{{/if}} 
-{{#if errors}}
-      {{#each errors}}
-        <div class="alert alert-danger">{{msg}}</div>
-      {{/each}}
-{{/if}}
+<h2>Register</h2>
 <form method="post" action="/users/register">
    <div class="form-group">
     <label>Name</label>
