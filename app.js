@@ -14,6 +14,7 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/loginAndRegistrationApp');      // here we connecting with Mngo Database
 var db = mongoose.connection;                                         // Variable 'db' is seting up to mangoose connection.  
 
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
